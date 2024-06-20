@@ -1,0 +1,2 @@
+# Mercury
+A personal wiki.
