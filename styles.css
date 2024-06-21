@@ -2,7 +2,7 @@ body { font-size: medium; background-color: #f6f6f6; color: #202020; max-width: 
 p { text-indent: 1ch; margin: 0; margin-top: .4rem; margin-bottom: .4rem; }
 h1 { font-size: 1.6rem; margin: 0; }
 h2, h3, h4, h5, h6 { font-size: 1.3rem; margin: 0; }
-a { color: #777779; }
+a { color: #404040; }
 a:hover { text-decoration: none; }
 code, pre, kbd, samp, tt { font-family: 'Courier New', Courier, monospace; }
 table { border-collapse: collapse; }
