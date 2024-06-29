@@ -13,3 +13,6 @@ blockquote { padding-left: 1rem; padding-right: 1rem; }
 footer { text-align: center; padding-top: 1rem; }
 footer::first-letter { font-size: 2rem }
 ul { margin-top: 0}
+@media (prefers-color-scheme: dark) {
+body { background-color: #202020; color: #f6f6f6; }
+a { color: #dedede;} }

@@ -1,8 +1,5 @@
 #!/bin/zsh
 
-# Navigate to your repository directory
-cd ~/sites/wiki/
-
 # Add all changes
 git add .
 
