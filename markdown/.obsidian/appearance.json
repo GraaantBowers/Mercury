@@ -1,0 +1,9 @@
+{
+  "accentColor": "#ffc799",
+  "interfaceFontFamily": "SF Pro",
+  "textFontFamily": "Times New Roman",
+  "monospaceFontFamily": "Courier",
+  "baseFontSize": 18,
+  "baseFontSizeAction": false,
+  "translucency": true
+}
