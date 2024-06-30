@@ -57,9 +57,7 @@ date: 2024-06-30
 
 ### Basic Primitives
 Alan Turing proved that one can compute anything with just 6 primitive instructions. He imagined a tape with values and 6 instructions that would act on the tape: left (move the tape left 1), right (move the tape right 1), print (print a symbol on the current section), scan (identify any symbols on the current square), erase (remove everything on the current section), and nothing (do nothing).
-
 Real programming languages have a more convenient set of primitives and ways to combine primitives to make new primitives.
-
 Anything computable in one language is computable in any other programming language (if it has these 6 primitives in it)
 
 ## Python
@@ -76,14 +74,11 @@ Anything computable in one language is computable in any other programming langu
 
 ### Static Semantics
 **English**: "I are hungry" syntactially valid but static semantic error  **Programming Language**: `"hi" + 5` is syntactially valid but static semantic error  
-
 Programs have only one meaning, but the meaning may not be what programmer intended.  
 
 ### Errors
 **Syntactic errors**: Common and easily caught.
-  
 **Static Semantic Errors**: Some languages check for these before running the program, and they cause unpredictable behavior.  
-
 Even if there are no "linguistic" errors, there can be different meanings than what the programmer intended; the program could stop running before reaching its goal, it could run forever, it could give a wrong answer.  
 
 ### Python Programs
@@ -109,6 +104,7 @@ A program is a sequence of definitions and commands
 	- Lists
 	- Dictionaries
 	- Sequence of characters: `"abc"`
+
 #### Scalar Objects
 - `int` — represents integers, (`5`, `-100`)
 - `float` — represents floating point numbers (`3.27`, `2.0`)
@@ -121,16 +117,11 @@ int
 >>> type(3.0)
 float
 ```
-
 There are infinite amount of ints and floats, whereas there are only two bools (`True` and `False`) and only one NoneType (`None`)  
 
 ### Type Conversions
 This does not change the object, it makes a new object (for example, if you have integer `3` in memory, casting it to a float does not *change* the integer `3` but rather creates a new float `3.0` in memory).  
-
 `float(3)` casts the int `3` into float `3.0`  
-
 `int(3.9)` casts (note the truncation!) the float `3.9` to int `3`  
-
 Some operations perform *implicit* casts:  
-
 `round(3.9)` returns the int `4`  

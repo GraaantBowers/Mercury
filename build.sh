@@ -32,5 +32,5 @@ for markdown_file in "$SOURCE_DIR"/*.md; do
     html_file="$TARGET_DIR/$base_name.html"
     
     # Run Pandoc to convert markdown to HTML using the specified template
-    pandoc --template=template.html -f markdown -t html -o "$html_file" "$markdown_file"
+    pandoc --template=template.html -f markdown+hard_line_breaks -t html -o "$html_file" "$markdown_file"
 done
