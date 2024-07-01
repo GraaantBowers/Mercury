@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 1</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">Index</a>
+    </header>
+    <h1>Lesson 1</h1>
+    <blockquote>
+    <p>Programming is a skill</p>
+    </blockquote>
+    <h2 id="topics">Topics:</h2>
+    <ul>
+    <li>Solving problems using computation<br />
+    </li>
+    <li>Python programming language<br />
+    </li>
+    <li>Organizing modular programs<br />
+    </li>
+    <li>Some simple but important algorithms<br />
+    </li>
+    <li>Algorithmic complexity<br />
+    ## Types of Knowledge</li>
+    <li><strong>Declarative knowledge</strong> is a statement of
+    fact.</li>
+    <li><strong>Imperative knowledge</strong> is a recipe or
+    “how-to.”<br />
+    ### Numerical Example</li>
+    <li>Square root of a number <code>x</code> is <code>y</code> such
+    that <code>y * y</code> is <code>x</code>.</li>
+    <li>Start with a guess, <code>g</code>
+    <ol type="1">
+    <li>If <code>g * g</code> is close enough to <code>x</code>, stop
+    and say <code>g</code> is the answer.</li>
+    <li>Otherwise make a new guess by averaging <code>g</code> and
+    <code>x / g</code>.</li>
+    <li>Using the new guess, repeat the process until close
+    enough.<br />
+    ### Algorithm</li>
+    </ol></li>
+    </ul>
+    <ol type="1">
+    <li>Sequence of simple steps.</li>
+    <li>Flow of control process that specifies when each step is
+    executed.</li>
+    <li>A means of determining when to stop.<br />
+    ### Computers are Machines that Execute Algorithms</li>
+    </ol>
+    <ul>
+    <li>Two things computers do:
+    <ul>
+    <li>Performs simple operations</li>
+    <li>Remembers results</li>
+    </ul></li>
+    <li>What kind of calculations?
+    <ul>
+    <li>Built-in to the machine, e.g. addition, subtraction</li>
+    <li>Ones that you define as the programmer (made of commands built
+    into machine)<br />
+    &gt; A computer only does what you tell it to do.<br />
+    ## History</li>
+    </ul></li>
+    <li><strong>Fixed Program Computer</strong>
+    <ul>
+    <li>Fixed set of algorithms (like a calculator)</li>
+    <li>What we had until 1940s</li>
+    </ul></li>
+    <li><strong>Stored Program Computer</strong>
+    <ul>
+    <li>Machine stores and executes instructions</li>
+    </ul></li>
+    <li>Key Insight: Programs are no different from other kinds of
+    data.<br />
+    ### Stored Program Computer</li>
+    <li>Sequence of instructions stored inside computer
+    <ul>
+    <li>Built from predefined set of primitive instructions
+    <ul>
+    <li>Arithmetic and logical</li>
+    <li>Simple tests</li>
+    <li>Moving data</li>
+    </ul></li>
+    </ul></li>
+    <li>Special program (interpreter) executes each instruction in order
+    <ul>
+    <li>Use tests to change flow of control through sequence</li>
+    <li>Stops when it runs out of instructions or executes a halt
+    instruction<br />
+    ### Basic Primitives<br />
+    Alan Turing proved that one can compute anything with just 6
+    primitive instructions. He imagined a tape with values and 6
+    instructions that would act on the tape: left (move the tape left
+    1), right (move the tape right 1), print (print a symbol on the
+    current section), scan (identify any symbols on the current square),
+    erase (remove everything on the current section), and nothing (do
+    nothing).<br />
+    Real programming languages have a more convenient set of primitives
+    and ways to combine primitives to make new primitives.<br />
+    Anything computable in one language is computable in any other
+    programming language (if it has these 6 primitives in it)<br />
+    ## Python</li>
+    </ul></li>
+    </ul>
+    <h3 id="primitive-constructs">Primitive Constructs</h3>
+    <p><strong>English</strong>: Words<br />
+    <strong>Python</strong>: Numbers, strings, simple operators<br />
+    ### Syntax<br />
+    <strong>English:</strong> “cat dog boy” is <em>not</em>
+    syntactically valid<br />
+    “cat hugs boy” <em>is</em> syntactically valid<br />
+    <strong>Programming Language</strong>: <code>"hi"5</code> is
+    <em>not</em> syntactically valid<br />
+    <code>"hi" * 5</code> <em>is</em> syntactically valid<br />
+    ### Static Semantics<br />
+    <strong>English</strong>: “I are hungry” syntactially valid but
+    static semantic error <strong>Programming Language</strong>:
+    <code>"hi" + 5</code> is syntactially valid but static semantic
+    error<br />
+    Programs have only one meaning, but the meaning may not be what
+    programmer intended.<br />
+    ### Errors<br />
+    <strong>Syntactic errors</strong>: Common and easily caught.<br />
+    <strong>Static Semantic Errors</strong>: Some languages check for
+    these before running the program, and they cause unpredictable
+    behavior.<br />
+    Even if there are no “linguistic” errors, there can be different
+    meanings than what the programmer intended; the program could stop
+    running before reaching its goal, it could run forever, it could
+    give a wrong answer.<br />
+    ### Python Programs<br />
+    A program is a sequence of definitions and commands<br />
+    - Definitions evaluated<br />
+    - Commands executed by Python interpreter in a shell<br />
+    - Commands (statements) instruct interpreter to do something<br />
+    - Can by typed directly in a <strong>shell</strong> or stored in a
+    <strong>file</strong> that is read into the shell and
+    evaluated<br />
+    ### Objects<br />
+    - Programs manipulate <strong>data objects</strong>.<br />
+    - Objects have a <strong>type</strong> that defines the kinds of
+    things programs can o to theme<br />
+    - <code>30</code><br />
+    - Is a number<br />
+    - We can add/subtract/multiply/divide/exponentiation/etc.<br />
+    - <code>"Word"</code><br />
+    - Is a sequence of characters (a string)<br />
+    - We can grab substrings, but we can’t divide it by a number (or
+    subtract, add, etc.)<br />
+    - <strong>Scalar</strong> (cannot be subdivided):<br />
+    - Numbers: <code>8.3</code>, <code>2</code><br />
+    - Truth values: <code>True</code>, <code>False</code><br />
+    - <strong>Non-scalar</strong> (have internal structure that can be
+    accessed)<br />
+    - Lists<br />
+    - Dictionaries<br />
+    - Sequence of characters: <code>"abc"</code><br />
+    #### Scalar Objects<br />
+    - <code>int</code> — represents integers, (<code>5</code>,
+    <code>-100</code>)<br />
+    - <code>float</code> — represents floating point numbers
+    (<code>3.27</code>, <code>2.0</code>)<br />
+    - <code>bool</code> — represents Boolean values (<code>True</code>
+    and <code>False</code>)<br />
+    - <code>NoneType</code> — Special and has one value,
+    <code>None</code><br />
+    - <code>type()</code> shows type of an objcets</p>
+    <pre><code>&gt;&gt;&gt; type(5)
+int
+&gt;&gt;&gt; type(3.0)
+float</code></pre>
+    <p>There are infinite amount of ints and floats, whereas there are
+    only two bools (<code>True</code> and <code>False</code>) and only
+    one NoneType (<code>None</code>)<br />
+    ### Type Conversions<br />
+    This does not change the object, it makes a new object (for example,
+    if you have integer <code>3</code> in memory, casting it to a float
+    does not <em>change</em> the integer <code>3</code> but rather
+    creates a new float <code>3.0</code> in memory).<br />
+    <code>float(3)</code> casts the int <code>3</code> into float
+    <code>3.0</code><br />
+    <code>int(3.9)</code> casts (note the truncation!) the float
+    <code>3.9</code> to int <code>3</code><br />
+    Some operations perform <em>implicit</em> casts:<br />
+    <code>round(3.9)</code> returns the int <code>4</code></p>
+    <h3 id="expressions">Expressions</h3>
+    <p>Combine objects and operators to form expressions.<br />
+    - <code>3 + 2</code><br />
+    - <code>5 / 3</code><br />
+    An expression has a value, which as a type.<br />
+    - <code>3 + 2</code> has value <code>5</code> and type int<br />
+    - <code>5 / 3</code> has value <code>1.6666667</code> and type
+    float<br />
+    Python evaluates experssions and stores the value . It doesn’t store
+    expressions.<br />
+    Syntax for a simple expression:<br />
+    <code>&lt;object&gt; &lt;operator&gt; &lt;object&gt;</code><br />
+    Computations work left-to-right. Parentheses override
+    left-to-rightness<br />
+    ### Operators on <code>int</code> and <code>float</code><br />
+    - <code>i + j</code> — the sum (if both <code>i</code> and
+    <code>j</code> are ints, result is int. Otherwise, result is
+    float)<br />
+    - <code>i - j</code> — the difference (if both <code>i</code> and
+    <code>j</code> are ints, result is int. Otherwise, result is
+    float)<br />
+    - <code>i * j</code> — the product (if both <code>i</code> and
+    <code>j</code> are ints, result is int. Otherwise, result is
+    float)<br />
+    - <code>i / j</code> — division (result is always a float)<br />
+    - <code>i // j</code> — truncates the division to a float ( result
+    is always an integer)<br />
+    - <code>i % j</code> — the remainder when <code>i</code> is divided
+    by <code>j</code> (result is always an integer)<br />
+    - <code>i ** j</code> — <code>i</code> to the power of
+    <code>j</code> (if both <code>i</code> and <code>j</code> are ints,
+    result is int. Otherwise, result is float)<br />
+    ### Variables<br />
+    <code>pi = 3.141592653594230985703</code> because we don’t want to
+    write out <code>3.141592653594230985703</code> every time we use
+    pi.<br />
+    <strong>Math Variables</strong>: Are abstract and can represent many
+    valuables (i.e. y = 5x - 3)<br />
+    <strong>CS Variables</strong>: Is bound to one single value at a
+    given time and can be bound to an expression.</p>
+    <footer>
+        <p>❦</p>
+        <a href="../index.html">Index</a>
+    </footer>
+</body>
+
+</html>
