@@ -14,6 +14,7 @@
     <h1>Lesson 1</h1>
     <blockquote>
     <p>Programming is a skill</p>
+    </blockquote>
     <h2 id="topics">Topics:</h2>
     <ul>
     <li>Solving problems using computation<br />
@@ -26,7 +27,6 @@
     </li>
     <li>Algorithmic complexity</li>
     </ul>
-    </blockquote>
     <h2 id="types-of-knowledge">Types of Knowledge</h2>
     <ul>
     <li><strong>Declarative knowledge</strong> is a statement of
@@ -267,22 +267,39 @@
     (the variable).</p>
     <h3 id="abstracting-expressions">Abstracting Expressions</h3>
     <p>Choose variable names wisely. Code should be readable in a year
-    (and longer) by you and others.<br />
-    pi = 355/113<br />
-    radius = 2.2<br />
-    area = pi * (radius**2)<br />
-    circumference = pi * (radius*2)</p>
+    (and longer) by you and others.</p>
+    <div class="sourceCode" id="cb1"><pre
+    class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pi <span class="op">=</span> <span class="dv">355</span><span class="op">/</span><span class="dv">113</span>  </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>radius <span class="op">=</span> <span class="fl">2.2</span>  </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>area <span class="op">=</span> pi <span class="op">*</span> (radius<span class="op">**</span><span class="dv">2</span>)  </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>circumference <span class="op">=</span> pi <span class="op">*</span> (radius<span class="op">*</span><span class="dv">2</span>)  </span></code></pre></div>
     <h3 id="comments">Comments</h3>
     <p>Comments tell others (and yourself) what your code is doing. They
-    start with a <code>#</code>.<br />
-    <code># This is a comment message = "This is code"</code></p>
+    start with a <code>#</code>.</p>
+    <div class="sourceCode" id="cb2"><pre
+    class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This is a comment</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>message <span class="op">=</span> <span class="st">&quot;This is code&quot;</span></span></code></pre></div>
     <h3 id="code-style">Code Style</h3>
-    <p><code>#do calculations a = 335/113 * (2.2**2) c = 335/113 * (2.2 *2)</code><br />
-    This is pretty bad code.<br />
-    <code>p = 355/113 r = 2.2 #multiply p with r squared a = p*(r**2) #multiply p with r times 2 c = p*(r*2)</code><br />
-    This is ok code.<br />
-    <code>#caulclate area and circumference of a circle using an approximation for pi pi = 355/113 radius = 2.2 area = pi * (radius**2) circumference = pi * (radius * 2)</code><br />
-    This is good code.</p>
+    <div class="sourceCode" id="cb3"><pre
+    class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Do calculations  </span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">335</span><span class="op">/</span><span class="dv">113</span> <span class="op">*</span> (<span class="fl">2.2</span><span class="op">**</span><span class="dv">2</span>)  </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>c <span class="op">=</span> <span class="dv">335</span><span class="op">/</span><span class="dv">113</span> <span class="op">*</span> (<span class="fl">2.2</span> <span class="op">*</span><span class="dv">2</span>)</span></code></pre></div>
+    <p>This is pretty bad code.</p>
+    <div class="sourceCode" id="cb4"><pre
+    class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> <span class="dv">355</span><span class="op">/</span><span class="dv">113</span>  </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> <span class="fl">2.2</span>  </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Multiply p with r squared  </span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> p<span class="op">*</span>(r<span class="op">**</span><span class="dv">2</span>)  </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Multiply p with r times 2  </span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>c <span class="op">=</span> p<span class="op">*</span>(r<span class="op">*</span><span class="dv">2</span>)</span></code></pre></div>
+    <p>This is ok code.</p>
+    <div class="sourceCode" id="cb5"><pre
+    class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate area and circumference of a circle using an approximation for pi  </span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>pi <span class="op">=</span> <span class="dv">355</span><span class="op">/</span><span class="dv">113</span>  </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>radius <span class="op">=</span> <span class="fl">2.2</span>  </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>area <span class="op">=</span> pi <span class="op">*</span> (radius<span class="op">**</span><span class="dv">2</span>)  </span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>circumference <span class="op">=</span> pi <span class="op">*</span> (radius <span class="op">*</span> <span class="dv">2</span>)</span></code></pre></div>
+    <p>This is good code.</p>
     <h3 id="change-bindings">Change Bindings</h3>
     <p>You can rebind variable names using new assignment statements.
     Previous value may still stored in memory but lost the handle for

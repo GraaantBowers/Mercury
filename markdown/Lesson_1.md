@@ -4,7 +4,7 @@ author: Grant
 date: 2024-06-30
 ---
 > Programming is a skill  
-> 
+
 ## Topics:  
 - Solving problems using computation  
 - Python programming language  
@@ -158,33 +158,45 @@ An assignment binds a value to a name.
 		 
 ### Abstracting Expressions
 Choose variable names wisely. Code should be readable in a year (and longer) by you and others.
-	pi = 355/113
-	radius = 2.2
-	area = pi * (radius**2)
-	circumference = pi * (radius*2)
+```python
+pi = 355/113  
+radius = 2.2  
+area = pi * (radius**2)  
+circumference = pi * (radius*2)  
+```
 
 ### Comments
 Comments tell others (and yourself) what your code is doing. They start with a `#`. 
-```# This is a comment
-message = "This is code"```
+```python
+# This is a comment
+message = "This is code"
+```
 
 ### Code Style
-```#do calculations
-a = 335/113 * (2.2**2)
-c = 335/113 * (2.2 *2)```
+```python
+# Do calculations  
+a = 335/113 * (2.2**2)  
+c = 335/113 * (2.2 *2)
+```
 This is pretty bad code.
-```p = 355/113
-r = 2.2
-#multiply p with r squared
-a = p*(r**2)
-#multiply p with r times 2
-c = p*(r*2)```
+
+```python
+p = 355/113  
+r = 2.2  
+# Multiply p with r squared  
+a = p*(r**2)  
+# Multiply p with r times 2  
+c = p*(r*2)
+```
 This is ok code.
-```#caulclate area and circumference of a circle using an approximation for pi
-pi = 355/113
-radius = 2.2
-area = pi * (radius**2)
-circumference = pi * (radius * 2)```
+
+```python
+# Calculate area and circumference of a circle using an approximation for pi  
+pi = 355/113  
+radius = 2.2  
+area = pi * (radius**2)  
+circumference = pi * (radius * 2)
+```
 This is good code.
 
 ### Change Bindings
