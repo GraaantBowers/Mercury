@@ -4,7 +4,7 @@ author: Grant
 date: 2024-06-30
 ---
 > Programming is a skill  
-
+> 
 ## Topics:  
 - Solving problems using computation  
 - Python programming language  
@@ -54,7 +54,7 @@ date: 2024-06-30
 - Special program (interpreter) executes each instruction in order
 	- Use tests to change flow of control through sequence
 	- Stops when it runs out of instructions or executes a halt instruction
-	
+					
 ### Basic Primitives
 Alan Turing proved that one can compute anything with just 6 primitive instructions. He imagined a tape with values and 6 instructions that would act on the tape: left (move the tape left 1), right (move the tape right 1), print (print a symbol on the current section), scan (identify any symbols on the current square), erase (remove everything on the current section), and nothing (do nothing).
 Real programming languages have a more convenient set of primitives and ways to combine primitives to make new primitives.
@@ -106,17 +106,15 @@ A program is a sequence of definitions and commands
 	- Sequence of characters: `"abc"`
 
 #### Scalar Objects
-- `int` — represents integers, (`5`, `-100`)
-- `float` — represents floating point numbers (`3.27`, `2.0`)
-- `bool` — represents Boolean values (`True` and `False`)
-- `NoneType` — Special and has one value, `None`
+- `int` ‚Äî represents integers, (`5`, `-100`)
+- `float` ‚Äî represents floating point numbers (`3.27`, `2.0`)
+- `bool` ‚Äî represents Boolean values (`True` and `False`)
+- `NoneType` ‚Äî Special and has one value, `None`
 - `type()` shows type of an objcets
-```
->>> type(5)
-int
->>> type(3.0)
-float
-```
+	> > > type(5)
+	int
+	> > > type(3.0)
+	float
 There are infinite amount of ints and floats, whereas there are only two bools (`True` and `False`) and only one NoneType (`None`)  
 
 ### Type Conversions
@@ -139,15 +137,54 @@ Syntax for a simple expression:
 Computations work left-to-right. Parentheses override left-to-rightness
 
 ### Operators on `int` and `float`
-- `i + j` — the sum (if both `i` and `j` are ints, result is int. Otherwise, result is float)
-- `i - j` — the difference (if both `i` and `j` are ints, result is int. Otherwise, result is float)
-- `i * j` — the product (if both `i` and `j` are ints, result is int. Otherwise, result is float)
-- `i / j` — division (result is always a float)
-- `i // j` — truncates the division to a float ( result is always an integer)
-- `i % j` — the remainder when `i` is divided by `j` (result is always an integer)
-- `i ** j` — `i` to the power of `j` (if both `i` and `j` are ints, result is int. Otherwise, result is float)
+- `i + j` ‚Äî the sum (if both `i` and `j` are ints, result is int. Otherwise, result is float)
+- `i - j` ‚Äî the difference (if both `i` and `j` are ints, result is int. Otherwise, result is float)
+- `i * j` ‚Äî the product (if both `i` and `j` are ints, result is int. Otherwise, result is float)
+- `i / j` ‚Äî division (result is always a float)
+- `i // j` ‚Äî truncates the division to a float ( result is always an integer)
+- `i % j` ‚Äî the remainder when `i` is divided by `j` (result is always an integer)
+- `i ** j` ‚Äî `i` to the power of `j` (if both `i` and `j` are ints, result is int. Otherwise, result is float)
 
 ### Variables
 `pi = 3.141592653594230985703` because we don't want to write out `3.141592653594230985703` every time we use pi.
-**Math Variables**: Are abstract and can represent many valuables (i.e. y = 5x - 3)
-**CS Variables**: Is bound to one single value at a given time and can be bound to an expression.
+**Math Variables**: Are abstract and can represent many valuables (i.e. a + 2 = b - 1)
+**CS Variables**: Is bound to one single value at a given time and can be bound to an expression. (i.e. `m = 10`, `F = m * 9.98`. In this case, m = 10 and F = 99.8)
+
+#### Binding Values to Variables
+In Computer Science, an equal sign ( "=") is an **assignment**. One value to one variable. An equal sign is **not** equality, not ‚Äúsolve for x‚Äù.
+An assignment binds a value to a name.
+- **Step 1**: Compute the value on the right-hand side (the value), which is then stored in computer memory.
+- **Step 2**: Store it (bind it) to the left-hand side (the variable). 
+		 
+### Abstracting Expressions
+Choose variable names wisely. Code should be readable in a year (and longer) by you and others.
+	pi = 355/113
+	radius = 2.2
+	area = pi * (radius**2)
+	circumference = pi * (radius*2)
+### Comments
+Comments tell others (and yourself) what your code is doing. They start with a `#`. 
+	# This is a comment
+	message = "This is code"
+
+### Code Style
+	#do calculations
+	a = 335/113 * (2.2**2)
+	c = 335/113 * (2.2 *2)
+This is pretty bad code.
+	p = 355/113
+	r = 2.2
+	#multiply p with r squared
+	a = p*(r**2)
+	#multiply p with r times 2
+	c = p*(r*2)
+This is ok code.
+	#caulclate area and circumference of a circle using an approximation for pi
+	pi = 355/113
+	radius = 2.2
+	area = pi * (radius**2)
+	circumference = pi * (radius * 2)
+This is good code.
+
+### Change Bindings
+You can rebind variable names using new assignment statements. Previous value may still stored in memory but lost the handle for it.
