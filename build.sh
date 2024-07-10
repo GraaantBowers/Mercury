@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the source and target directories
-SOURCE_DIR="markdown"
+SOURCE_DIR="md"
 TARGET_DIR="wiki"
 
 # Check if the SOURCE_DIR exists

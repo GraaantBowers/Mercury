@@ -11,3 +11,6 @@ date: 2024-07-06
 
 > "A path is formed by walking."
 — Unknown
+
+> "In the morning her arms were sore, like she had been trying to fly."
+— J. R. Carpenter
