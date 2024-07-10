@@ -8,3 +8,6 @@ date: 2024-07-06
 
 > "Maybe a group of people can meet in different places on the Internet, just like they can meet in different places in a city."
 —James Bank
+
+> "A path is formed by walking."
+— Unknown
