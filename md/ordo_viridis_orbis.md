@@ -4,6 +4,7 @@ author: John Opsopaus
 date: 2006-12-25
 ---
 The following are the only Laws of the *Ordo Viridis Orbis*:
+
 ## Themis Viridis
 1. Your constant effort shall be to care for the Environment and to reconcile humanity with Nature; and this you shall do *gratis*.
 2. You are not constrained in your dress or manners, but should follow the custom of your country.
@@ -16,4 +17,4 @@ If you live by these Laws, then you are a member of the *Order*, if you *do not*
 
 OVO
 
-*The preceding information has been extracted from (opsopaus.com)[http://opsopaus.com/OM/BA/OVO.html]. It is still valid; it should be promulgated widely.*
+*The preceding information has been extracted from [opsopaus.com](http://opsopaus.com/OM/BA/OVO.html). It is still valid; it should be promulgated widely.*
