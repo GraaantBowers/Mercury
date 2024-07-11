@@ -1,5 +1,4 @@
 ---
-title:
 author: Grant
 date: 2024-07-10
 ---
