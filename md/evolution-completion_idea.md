@@ -5,28 +5,56 @@ date: 2024-07-06
 ---
 Each of the following sequecnes is an evolution. Complete each sequence according to the rule of change by which each example becomes the next.
 
-1. TRANSPORTATIOn
-A. walk         B. ride         C. fly         D._________
+1. TRANSPORTATION
+A. Walk
+B. Ride
+C. Fly
+D. ____
 
 2. ECONOMICS
-A. hunt/gather         B. pasturage/farm         C. industry/commerce/services         D._________
+A. Hunt/Gather
+B. Pasturage/Farm
+C. Industry/Commerce/Services
+D. __________________________
 
 3. ABSTRACTION
-A. words/numbers         B. calendars/maps         C. periodic table/unified field theory         D._________
+A. Words/Numbers
+B. Calendars/Maps
+C. Periodic Table/Unified Field Theory
+D. ___________________________________
 
 4. INFORMATION MEDIA
-A. stone tablet/carved bone         B. ink/paper/paint/canvas         C. global TV/telephone/network         D._________
+A. Stone Tablet/Carved Bone
+B. Ink/Paper/Paint/Canvas
+C. Global TV/Telephone/Network
+D. ___________________________
 
 5. SELF-ORIENTATION IN UNIVERSE
-A. egocentric         B. lococentric         C. geocentric           D. heliocentric         E._________
+A. Egocentric
+B. Lococentric
+C. Geocentric
+D. Heliocentric
+E. ____________
 
 6. SOCIAL ORGANIZATION
-A. indiviual         B. family/tribe         C. city/nation         D. empire/united nations         E._________
+A. Indivual
+B. Family/Tribe
+C. City/Nation
+D. Empire/United Nations
+E. _____________________
 
 7. SELF-REPRODUCTION
-A. asexual replication of whole (single cell)         B. whole from part regeneration (annelids)         C. single organ regeneration (crustacea)         D. muscle nerve regeneration (mammals, man)         E._________
+A. Asexual Replication of WHole (single cell)
+B. Whole From Part Rgeneration (annelids)
+C. Single Organ Rgeneration (crustacean)
+D. Muscle Nerver Regeneration (mammals, man)
+E. _________________________________________
 
 8. MATTER COMPLEXITY IN UNIVERSE
-A. astronomical         B. geological         C. chemical         D. biological         E._________
+A. Astronomical
+B. Geological
+C. Chemical
+D. Biological
+E. __________
 
 *Digitized on 2024-07-06 (July 06, 2024) from CoEvolution No. 14, page 011*
