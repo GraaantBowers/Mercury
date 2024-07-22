@@ -9,7 +9,7 @@ Each of the following sequecnes is an evolution. Complete each sequence accordin
 1. Walk
 2. Ride
 3. Fly
-4. _____________________
+4. \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ## 2. Economics
 1. Hunt/Gather
