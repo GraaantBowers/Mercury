@@ -9,32 +9,32 @@ Each of the following sequecnes is an evolution. Complete each sequence accordin
 A. Walk
 B. Ride
 C. Fly
-D. ____
+D. _____________________
 
 ## 2. ECONOMICS
 A. Hunt/Gather
 B. Pasturage/Farm
 C. Industry/Commerce/Services
-D. __________________________
+D. _____________________
 
 ## 3. ABSTRACTION
 A. Words/Numbers
 B. Calendars/Maps
 C. Periodic Table/Unified Field Theory
-D. ___________________________________
+D. _____________________
 
 ## 4. INFORMATION MEDIA
 A. Stone Tablet/Carved Bone
 B. Ink/Paper/Paint/Canvas
 C. Global TV/Telephone/Network
-D. ___________________________
+D. _____________________
 
 ## 5. SELF-ORIENTATION IN UNIVERSE
 A. Egocentric
 B. Lococentric
 C. Geocentric
 D. Heliocentric
-E. ____________
+E. _____________________
 
 ## 6. SOCIAL ORGANIZATION
 A. Indivual
@@ -48,13 +48,13 @@ A. Asexual Replication of WHole (single cell)
 B. Whole From Part Rgeneration (annelids)
 C. Single Organ Rgeneration (crustacean)
 D. Muscle Nerver Regeneration (mammals, man)
-E. _________________________________________
+E. _____________________
 
 ## 8. MATTER COMPLEXITY IN UNIVERSE
 A. Astronomical
 B. Geological
 C. Chemical
 D. Biological
-E. __________
+E. _____________________
 
 *Digitized on 2024-07-06 (July 06, 2024) from CoEvolution No. 14, page 011*
